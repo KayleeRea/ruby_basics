@@ -1,4 +1,4 @@
-puts "How many bottles of beer?"
+puts "I need to know how many bottles to sing! How many bottles of beer?"
 bottles = Integer(gets.chomp)
 while bottles >= 0
   if bottles == 2
@@ -11,8 +11,3 @@ while bottles >= 0
   bottles -= 1
 end
 
-# bottles == 1
-
-# bottles == 0
-
-# else?
